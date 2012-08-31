@@ -2,7 +2,7 @@ require 'sinatra'
 require 'haml'
 
 get '/' do
-  haml :index, :format => :html5
+  haml :cool, :format => :html5
 end
 
 get '/fotos' do
