@@ -8,3 +8,7 @@ end
 get '/fotos' do
   haml :fotos, :format => :html5
 end
+
+get '/cool' do
+  haml :cool, :format => :html5
+end
